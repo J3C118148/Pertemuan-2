@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form label{
+    color: #7fa2d1;
+}
+
+.form{
+    position: relative;
+    width: 700px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px 40px 60px;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px rgba(206, 215, 255, 0.05),
+    5px 5px 15px rgba(115, 147, 255, 0.5);
+}
+
+.form-group .biru{
+    color: #1774ee;
+}
+
+.tengah{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.form h2{
+    margin-top: -20px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #1774ee;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.form .tgh{
+    text-align: center;
+}
+
